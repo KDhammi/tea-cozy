@@ -1,0 +1,116 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    top: 0px;
+    display: block;
+    margin: 0;
+    background-color: black;
+}
+
+.logo {
+    float: left;
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav a {
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav a li {
+    display: inline;
+    color: seashell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+}
+
+.mission-container {
+    background-image: url('../images/img-mission-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 40px auto;
+    height: 700px;
+    max-width: 1200px;
+}
+
+#mission .text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+.featured-container {
+    display: inline-flex;
+    justify-content: center;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.featured-box img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.location-img {
+    background-image: url('/resources/images/img-locations-background.jpg');
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+.location-container {
+    max-width: 1500px;
+    height: auto;
+    margin: 15px auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location-box {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    flex-basis: 20%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 1;
+    margin-bottom: auto;
+}
+
+#contact {
+    height: 200px;
+}
+
+footer {
+    margin: 20px;
+    float: left;
+}
